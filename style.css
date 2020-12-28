@@ -83,6 +83,7 @@ body{
         }
     }
 
+
     section{
         display: flex;
         flex-direction: column;
@@ -192,6 +193,16 @@ body{
         .banner a.bannerBtn{
             padding: 8px 20px ;
         }
+    }
+
+    @media(max-width:600px){
+        .banner h1{
+            font-size: 22px;
+        }
+        .banner h3{
+            font-size: 15px;
+        }
+
     }
 
     /* to sprawdzić */
@@ -554,13 +565,22 @@ body{
         align-items: center;
         justify-content: space-around;
         position: absolute;
-        bottom: 0;
-       
+        bottom: 0;   
     }
     .animationContainer img{
-        width: 40px;
+        max-width: 40px;
         animation: coding 7s linear infinite;
- 
+    }
+
+    @media(max-width:400px){
+
+        .animationContainer img{
+            max-width: 25px;
+        }
+
+        body,html{
+            overflow: hidden;
+        }
     }
 
 
