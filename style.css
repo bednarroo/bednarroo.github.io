@@ -292,7 +292,7 @@ body{
 
     @media (max-width:600px){
         .aboutPhoto{
-            flex-basis: 70%;
+            flex-basis: 80%;
             margin: 0px;
             margin-bottom: 25px;
         }
