@@ -306,7 +306,8 @@ body{
     @media (max-width: 1000px) {
         .technologiesExamples li{
             flex-basis: 100% ;
-            margin-bottom: 65px;
+            margin-bottom: 5px;
+            padding: 5px 30px;
         }
         .technologiesExamples li:last-child{
             margin-bottom: 0;
