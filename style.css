@@ -109,9 +109,17 @@ body{
             position: relative;
             justify-content: center;
             min-height: 100vh;
-            color: #fff;
+            color: green
             text-align: center;
         }
+
+        .banner h3{
+         padding-top: 0;
+        }
+        header nav {
+            display: none;
+        }
+
     }
 
     .banner .bannerImg{
@@ -264,6 +272,26 @@ body{
         .about-content li{
             padding: 8px
         }
+
+        .aboutPhoto{
+            flex-basis: 40%;
+        }
+    }
+
+    @media (max-width:600px){
+        .aboutPhoto{
+            flex-basis: 70%;
+            margin: 0px;
+            margin-bottom: 25px;
+        }
+         .aboutText{
+            flex-basis: 70%;
+         } 
+
+         .aboutMe{
+             padding: 0px;
+         }
+
     }
     
     #technologies{
@@ -370,6 +398,10 @@ body{
     }
 
 
+    @media (max-width: 1000px) {
+
+    }
+
     /* projects */
 
 
@@ -420,14 +452,22 @@ body{
     @media (max-width: 1000px) {
         .containerFuture li{
             flex-basis: 100% ;
-            margin-bottom: 65px;
+            margin-bottom: 15px;
         }
-        .containerFuture li:last-child{
-            margin-bottom: 0;
+        .containerFuture i {
+            font-size: 35px;
+            margin-bottom: 10px;
         }
-        .containerFuture li p{
-            padding: 0;
+        .containerFuture li{
+            padding: 0px;
         }
+    }
+
+    @media (max-width: 600px){
+        .technologiesFuture{ 
+               padding: 0px;
+            }
+
     }
 
 
@@ -470,7 +510,7 @@ body{
     @media (max-width: 1000px){
         .contactContainer li {
             flex-basis: 100%;
-            margin-bottom: 65px;
+            margin-bottom: 15px;
         }
         .contactContainer li:last-child{
             margin-bottom: 0;
@@ -478,6 +518,12 @@ body{
         .contactContainer li p{
             padding: 0;
         }
+    }
+
+    @media (max-width: 600px){
+  .contact{
+      padding: 0px;
+  }
     }
 
     /* footer */
@@ -516,6 +562,7 @@ body{
         animation: coding 7s linear infinite;
  
     }
+
 
     .animationContainer img:nth-child(1){
         animation-delay: 1s;
