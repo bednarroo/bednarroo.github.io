@@ -488,6 +488,10 @@ body{
     padding-bottom: 15px;
         }
 
+        .projectDiv:nth-child(2){
+            order: -1
+        }
+
 
 
     }
@@ -496,8 +500,15 @@ body{
         .technologiesFuture{ 
                padding: 0px;
             }
+            .projectText{
+                margin: auto 0px auto 0px;
+            }
+
+
 
     }
+
+
 
 
 
@@ -591,12 +602,9 @@ body{
     }
 
     @media(max-width:400px){
-
         .animationContainer img{
-            max-width: 25px;
-        }
-
-    }
+            width: 20px;
+        }}
 
 
     .animationContainer img:nth-child(1){
